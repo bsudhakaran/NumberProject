@@ -1,0 +1,25 @@
+package devops.numbers;
+
+public class NumberWords {
+    
+	public String toWords( int number ) {
+		String returnValue = "";
+		String test = "";
+	    if (number > 0)
+	    {
+	    	test = String.valueOf(number) ;
+	    	returnValue = "Number inside range";
+	    	System.out.println("Number inside range");
+	    	System.out.println(+test)
+	    }
+	    else{
+	    	returnValue  = "Number out of range" ;
+	    	System.out.println("Number is not out of range");
+	    }	    	
+		
+		
+		return returnValue;
+
+	}
+
+}

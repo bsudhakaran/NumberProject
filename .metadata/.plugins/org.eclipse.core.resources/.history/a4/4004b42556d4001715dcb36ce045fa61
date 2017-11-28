@@ -1,0 +1,38 @@
+package devops.numbers;
+
+import org.junit.*;
+
+import devops.numbers.NumberWords;
+
+public class NumberWordsTests {
+	private NumberWords numberWords ;
+
+	@Before
+	public void setup() {
+		numberWords = new NumberWords() ;
+	}
+
+	@Test
+	public void numberOutOfRangeReturnsError() {
+		Assert.assertEquals( "Error", "Number out of range", numberWords.toWords( -1 ) ) ;
+	}
+
+	@Test
+		public void numberInsideRangeReturnsPass() {
+			Assert.assertEquals( "Error", "Ten", numberWords.toWords( 10 ) ) ;
+		}
+	@Test
+	    public void numberThreedigitReturnPass(){
+		    Assert.assertEquals( "Error", "Nine  Hundred Ninety Nine", numberWords.toWords( 999 ) ) ;
+	}
+	@Test
+	    public void numberaszeroReturnsPass(){
+		    Assert.assertEquals( "Error", "Nine  Hundred Ninety Nine", numberWords.toWords( 999 ) ) ;
+	}
+	@Test
+    public void numberaszeroReturnsPass(){
+	    Assert.assertEquals( "Error", "Nine  Hundred Ninety Nine", numberWords.toWords( 999 ) ) ;
+    }
+	
+
+}

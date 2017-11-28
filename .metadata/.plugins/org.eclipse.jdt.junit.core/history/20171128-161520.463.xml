@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="NumberWordsTests (1)" project="NumberProject" tests="5" started="5" failures="0" errors="0" ignored="0">
+  <testsuite name="devops.numbers.NumberWordsTests" time="0.001">
+    <testcase name="numberThreedigitReturnPass" classname="devops.numbers.NumberWordsTests" time="0.001"/>
+    <testcase name="numberafourdigitReturnsPass" classname="devops.numbers.NumberWordsTests" time="0.0"/>
+    <testcase name="numberOutOfRangeReturnsError" classname="devops.numbers.NumberWordsTests" time="0.0"/>
+    <testcase name="numberInsideRangeReturnsValue" classname="devops.numbers.NumberWordsTests" time="0.0"/>
+    <testcase name="numberaszeroReturnsError" classname="devops.numbers.NumberWordsTests" time="0.0"/>
+  </testsuite>
+</testrun>

@@ -1,0 +1,21 @@
+package devops.numbers;
+
+public class NumberWords {
+    
+	public String toWords( int number ) {
+		String returnValue = "";
+		
+	    if (number > 0)
+	    {
+	    	returnValue	= String.valueOf(number) ;
+	    }
+	    else{
+	    	returnValue  = "Invalid number " ;
+	    }	    	
+		
+		
+		return returnValue;
+
+	}
+
+}

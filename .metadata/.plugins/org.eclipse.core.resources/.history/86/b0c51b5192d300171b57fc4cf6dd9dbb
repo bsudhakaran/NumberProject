@@ -1,0 +1,12 @@
+package devops.numbers;
+
+public class NumberWords {
+
+	public String toWords( int number ) {
+		
+		String result = String.valueOf(number) ;
+		return result.trim() ;
+
+	}
+
+}

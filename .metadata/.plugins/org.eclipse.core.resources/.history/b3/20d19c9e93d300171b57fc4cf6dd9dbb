@@ -1,0 +1,22 @@
+package devops.numbers;
+
+public class NumberWords {
+
+	public String toWords( int number ) {
+		private String returnValue = "";
+	
+	    if (number > 0)
+	    {
+	    	
+	    }
+	    else{
+	    	
+	    }
+	    	
+		
+		String result = String.valueOf(number) ;
+		return result.trim() ;
+
+	}
+
+}
